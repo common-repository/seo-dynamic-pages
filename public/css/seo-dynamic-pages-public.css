@@ -1,0 +1,97 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+/* #sdp-post .center, #sdp-banner .center{
+ 	text-align: center;
+ }
+ #sdp-post{
+ 	max-width: 1310px;
+ 	margin: 0 auto;
+ }
+ #sdp-post-main{
+ 	padding: 4rem 2rem;
+ }
+ #sdp-post .vcenter{
+ 	margin-top: auto;
+ 	margin-bottom: auto;
+ }
+
+ #sdp-post p{
+ 	margin: 15px 0;
+ }
+ #sdp-post p{
+
+ }
+ #sdp-post h1,  #sdp-post h2,  #sdp-post h3,  #sdp-post h4,  #sdp-post h5{
+ 	margin: 0;
+ }
+ #sdp-post .paragraph{
+ 	margin: 60px 0;
+ 	display: flex;
+ }
+ #sdp-post .paragraph .order-0{
+ 	order: 0;
+ }
+ #sdp-post .paragraph .order-1{
+ 	order: 1;
+ }
+
+ #sdp-sitemap ul{
+ 	list-style-type: none;
+ }
+ #sdp-banner{
+ 	padding: 50px 0;
+ 	background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+#sdp-banner h1{
+ padding: 0;
+ margin: 0;
+ text-shadow: 2px 1px #333333;
+ text-transform: uppercase;
+ color: #ffffff;
+}
+
+#sdp-post .fullwidth{
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+#sdp-post .section{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 50px 0 50px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#sdp-post .section .section-inner{
+  width: 100%;
+}
+#sdp-post .section .row.text{
+  display: inline-block;
+}
+
+.w-btn-wrapper.align_left {
+  margin-right: 0;
+}*/
+.sdp-aggreagate-rating {
+  position: absolute;
+  font-size: 0px;
+  z-index: -500000;
+}
+.sdp-aggreagate-rating img {
+  width:0px;
+  height:0px;
+}

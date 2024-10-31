@@ -1,0 +1,210 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ /*#sdp-settings .form-group {
+ 	text-align: left !important;
+ }
+
+ #sdp-settings .form-group {
+ 	margin-bottom: 15px;
+ }
+ #sdp-settings .form-group input[type=radio] {
+ 	vertical-align: bottom;
+ }
+ #sdp-settings .form-control {
+ 	display: block;
+ 	width: 100%;
+ 	height: 34px;
+ 	padding: 6px 12px;
+ 	font-size: 14px;
+ 	line-height: 1.428571429;
+ 	color: #555;
+ 	vertical-align: middle;
+ 	background-color: #fff;
+ 	border: 1px solid #ccc;
+ 	border-radius: 4px;
+ 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+ 	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+ 	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+ 	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+ }
+ #sdp-settings .form-group label {
+ 	font-size: 14px;
+ 	font-weight: normal;
+ 	cursor: pointer;
+ 	display: inline-block;
+ 	margin-bottom: 5px;
+ 	min-width: 40%;
+ }
+
+ #sdp-settings .tooltip1 {
+ 	position: relative;
+ 	display: inline-block;
+ }
+
+ #sdp-settings .tooltip1 .tooltiptext {
+ 	width: 250px;
+ 	background-color: #555;
+ 	color: #fff;
+ 	text-align: left;
+ 	border-radius: 6px;
+ 	padding: 15px 10px;
+ 	position: absolute;
+ 	z-index: 1;
+ 	opacity: 0;
+ 	transition: opacity 1s;
+ 	position: absolute;
+ 	visibility: hidden;
+ }
+
+ #sdp-settings .tooltip-bottom::after {
+ 	content: "";
+ 	position: absolute;
+ 	bottom: 100%;
+ 	left: 50%;
+ 	margin-left: -5px;
+ 	border-width: 5px;
+ 	border-style: solid;
+ 	border-color: transparent transparent #555 transparent;
+ }
+
+ #sdp-settings .tooltip1:hover .tooltiptext {
+ 	visibility: visible;
+ 	opacity: 1;
+ }
+ #sdp-settings .tooltip-bottom {
+ 	top: 135%;
+ 	left: 50%;
+ 	margin-left: -118px;
+ 	margin-top: 16px;
+
+ }
+ #sdp-settings .icon-info {
+ 	color: #cccccc;
+ 	margin-left: 15px;
+ 	font-weight: normal !important;
+ 	border: 2px solid #ccc;
+ 	border-radius: 50%;
+ 	padding: 0;
+ 	font-size: 12px !important;
+ 	line-height: 25px !important;
+ 	position: absolute;
+ 	top: 1px;
+ 	width: 24px;
+ 	text-align: center;
+ 	height: 24px;
+ }
+ #sdp-settings .radio, .checkbox {
+ 	display: block;
+ 	min-height: 20px;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	vertical-align: middle;
+ }
+ #sdp-settings .form-group .input-group{
+ 	margin: 10px 0;
+ }
+
+ #sdp-settings .form-group h5{
+ 	font-size: 14px;
+ 	color: #000;
+ 	display: inline-block;
+ 	margin: 10px 0;
+ }
+ #sdp-settings .webchat-settings input[type=text], 
+ #sdp-settings .webchat-settings input[type=radio], 
+ #sdp-settings .webchat-settings input[type=number], 
+ #sdp-settings .webchat-settings select, 
+ #sdp-settings .webchat-settings textarea{
+ 	margin: 7px 0 0 0;
+ }
+
+ #sdp-settings .sc-loader {
+ 	background-color: rgba(0, 0, 0, 0.9);
+ 	background-image: url(../img/loading.gif);
+ 	background-position: center center;
+ 	background-repeat: no-repeat;
+ 	background-size: 52px 52px;
+ 	height: 100%;
+ 	left: 0;
+ 	position: fixed;
+ 	top: 0;
+ 	width: 100%;
+ 	z-index: 10000;
+ 	display: none; 
+ }
+ #sdp-settings .sp-replacer{
+ 	margin-top: 20px;
+ }
+
+ #sdp-settings #cookie-notice textarea{
+ 	display: block;
+ 	margin-top: 5px;
+ }
+ #sdp-settings #privacy-services td{
+ 	padding: 5px;
+ }
+ #sdp-settings .no-data-found{
+ 	padding: 10px 0;
+ 	font-size: 14px;
+ 	color: #007fff;
+ }
+ #sdp-settings .row{
+ 	margin: 15px 0;
+ }
+
+ #sdp-settings input[type="button"],  #sdp-settings input[type="submit"]{
+ 	background-color: #007fff;
+ 	color: #fff;
+ 	padding: 6px 15px;
+ }
+ #sdp-settings input[type="button"].remove{
+ 	background-color: #af0705;
+ }
+ #sdp-settings input[type="submit"]{
+ 	background-color: #0aaf05;
+ }
+ #sdp-settings .ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+ 	padding: .5em 2em;
+ 	font-size: 15px;
+ }
+ #sdp-settings #logs a{
+ 	text-decoration: underline;  
+ }
+ #sdp-settings .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+ 	background: #007fff;
+ }
+ #sdp-settings .ui-state-active a, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active a{
+ 	color: #fff;
+ }
+ #sdp-settings .toolt{
+ 	margin-bottom: 15px;
+ 	font-style: italic;
+ 	color: #989a9c;
+ }
+ #sdp-settings td{
+ 	padding: 10px;
+ }
+ #sdp-settings th{
+ 	padding: 10px;
+ 	background-color: #eee;
+ }
+ #sdp-settings .image-wrapper{
+ 	text-align: center;
+ }
+ #sdp-settings .image-wrapper img{
+ 	max-width: 100px;
+ }
+
+
+ .post-type-sdp-service #edit-slug-box{
+ 	display: none;
+ }*/
+ #sdp-service-generation .actions{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
